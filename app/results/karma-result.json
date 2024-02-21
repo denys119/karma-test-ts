@@ -1,0 +1,52 @@
+{
+    "summary": {
+        "success": 1,
+        "failed": 0,
+        "skipped": 0,
+        "error": false,
+        "disconnected": false,
+        "exitCode": 0
+    },
+    "browsers": [
+        {
+            "browser": {
+                "id": "58135987",
+                "fullName": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/121.0.6167.185 Safari/537.36",
+                "name": "Chrome Headless 121.0.6167.185 (Windows 10)",
+                "state": "DISCONNECTED",
+                "lastResult": {
+                    "startTime": 1708520396560,
+                    "total": 1,
+                    "success": 1,
+                    "failed": 0,
+                    "skipped": 0,
+                    "totalTime": 5,
+                    "netTime": 1,
+                    "error": false,
+                    "disconnected": false
+                },
+                "disconnectsCount": 0,
+                "noActivityTimeout": 30000,
+                "disconnectDelay": 10000
+            },
+            "errors": [],
+            "results": [
+                {
+                    "id": "",
+                    "description": "Should match text \"Hello World!\"",
+                    "suite": [
+                        "helloWorld.ts"
+                    ],
+                    "success": true,
+                    "skipped": false,
+                    "pending": false,
+                    "time": 1,
+                    "log": [],
+                    "assertionErrors": [],
+                    "startTime": 1708520396560,
+                    "endTime": 1708520396561
+                }
+            ]
+        }
+    ]
+}

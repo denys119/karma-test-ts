@@ -1,0 +1,26 @@
+{
+  "name": "karma-vanillats",
+  "version": "1.0.0",
+  "description": "Setup for Mocha unit testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/sinon": "^10.0.14",
+    "chai": "^4.3.7",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-mocha": "^2.0.1",
+    "karma-structured-json-reporter": "^1.0.1",
+    "karma-typescript": "^5.5.4",
+    "karma-typescript-es6-transform": "^5.5.4",
+    "mocha": "^10.2.0",
+    "sinon": "^15.0.4",
+    "typescript": "5.2.2"
+  }
+}
